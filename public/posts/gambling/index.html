@@ -5,19 +5,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Stromkreise | Physik 2025/26 6M</title>
+<title>Black-Jack | Physik 2025/26 6M</title>
 <meta name="keywords" content="">
-<meta name="description" content="Hier sind Informationen über einen Stromkreis.
+<meta name="description" content="
+  Blackjack
+  Geld: 1000
+
+  
+  
+
+  Start
+  Hit
+  Stand
+
+  Setze Geld und starte.
 
 
-
-
-
-
-
-ö">
+">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/second/">
+<link rel="canonical" href="http://localhost:1313/posts/gambling/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/img/macho.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -26,7 +32,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/second/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/gambling/">
 <noscript>
     <style>
         #theme-toggle,
@@ -130,21 +136,82 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Stromkreise
+      Black-Jack
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
-  <div class="post-content"><p>Hier sind Informationen über einen Stromkreis.</p>
-<p><img loading="lazy" src="/img/sk1.png" title="E">
-<img loading="lazy" src="/img/sk2.png" title="E">
-<img loading="lazy" src="/img/sk3.png" title="E">
-<img loading="lazy" src="/img/sk4.png" title="E">
-<img loading="lazy" src="/img/sk5.png" title="E">
-<img loading="lazy" src="/img/sk6.png" title="E">
-<img loading="lazy" src="/img/sk7.png" title="E">
-<img loading="lazy" src="/img/sk8.png" title="E">ö</p>
+  <div class="post-content">
+<div id="game">
+  <h2>Blackjack</h2>
+  <p>Geld: <span id="money">1000</span></p>
+
+  <input type="number" id="bet" placeholder="Einsatz" min="1">
+  <br><br>
+
+  <button onclick="startGame()">Start</button>
+  <button onclick="hit()">Hit</button>
+  <button onclick="stand()">Stand</button>
+
+  <p id="status">Setze Geld und starte.</p>
+</div>
+
+<script>
+let money = 1000;
+let bet = 0;
+let player = 0;
+let dealer = 0;
+
+function draw() {
+  return Math.floor(Math.random() * 10) + 1;
+}
+
+function updateMoney() {
+  document.getElementById("money").innerText = money;
+}
+
+function startGame() {
+  bet = parseInt(document.getElementById("bet").value);
+  if (!bet || bet <= 0 || bet > money) {
+    document.getElementById("status").innerText = "Ungültiger Einsatz.";
+    return;
+  }
+
+  player = draw() + draw();
+  dealer = draw();
+  document.getElementById("status").innerText =
+    "Du: " + player + " | Dealer zeigt: " + dealer;
+}
+
+function hit() {
+  player += draw();
+  if (player > 21) {
+    money -= bet;
+    updateMoney();
+    document.getElementById("status").innerText = "Bust! Du verlierst " + bet;
+  } else {
+    document.getElementById("status").innerText =
+      "Du: " + player + " | Dealer zeigt: " + dealer;
+  }
+}
+
+function stand() {
+  while (dealer < 17) dealer += draw();
+
+  if (dealer > 21 || player > dealer) {
+    money += bet;
+    updateMoney();
+    document.getElementById("status").innerText =
+      "Du gewinnst! +" + bet;
+  } else {
+    money -= bet;
+    updateMoney();
+    document.getElementById("status").innerText =
+      "Dealer gewinnt. -" + bet;
+  }
+}
+</script>
 
 
   </div>
