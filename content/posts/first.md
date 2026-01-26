@@ -1,5 +1,5 @@
 ---
-date: '2026-01-26T12:43:46+01:00'
+weight: 1
 draft: false
 title: 'Elektrizität'
 ---
