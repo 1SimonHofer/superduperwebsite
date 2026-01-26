@@ -16,5 +16,7 @@
     <loc>http://localhost:1313/donation/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/%C3%BCbermich/</loc>
   </url>
 </urlset>

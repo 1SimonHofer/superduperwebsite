@@ -5,6 +5,12 @@ theme: 'PaperMod'
 copyright: "© 2026 Physik 2025/26 6M · Powered by Simon ze Hugo & bissl Johni12"
 disablePoweredBy: true
 
+params:
+  label:
+    text: "Physik 2025/26 6M"
+    icon: "img/macho.png"
+    iconHeight: 35
+
 menu:
   main:
     - identifier: donation
