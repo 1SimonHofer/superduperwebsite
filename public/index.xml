@@ -21,7 +21,8 @@
       <link>http://localhost:1313/posts/second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/second/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk1.png&#34; title=&#34;E&#34;&gt;
+      <description>&lt;p&gt;Hier sind Informationen über einen Stromkreis.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk1.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk2.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk3.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk4.png&#34; title=&#34;E&#34;&gt;

@@ -3,6 +3,7 @@ weight: 2
 draft: false
 title: 'Stromkreise'
 ---
+Hier sind Informationen über einen Stromkreis.
 
 ![](/img/sk1.png "E")
 ![](/img/sk2.png "E")
