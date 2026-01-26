@@ -2,7 +2,7 @@ baseURL: 'https://superduperwebsite67.netlify.app/'
 languageCode: 'de-at'
 title: 'Physik 2025/26 6M'
 theme: 'PaperMod'
-copyright: "© 2026 Physik 2025/26 6M · Powered by Simoen ze Hugo & Johni12"
+copyright: "© 2026 Physik 2025/26 6M · Powered by Simon ze Hugo & bissl Johni12"
 disablePoweredBy: true
 
 menu:
