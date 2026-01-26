@@ -10,7 +10,8 @@
     {{- end }}
 
     {{- with site.Params.footer.text }}
-        {{- /* entfernt das extra " · " am Ende, falls nicht nötig */}}
+        {{ . | markdownify }}
+        {{- /* entfernt das extra "  " am Ende, falls nicht nötig */}}
     {{- end }}
 
     {{- /* Hier die PaperMod-Powered-Zeile entfernt */}}
