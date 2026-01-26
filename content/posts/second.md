@@ -12,4 +12,4 @@ Hier sind Informationen über einen Stromkreis.
 ![](/img/sk5.png "E")
 ![](/img/sk6.png "E")
 ![](/img/sk7.png "E")
-![](/img/sk8.png "E")ö
+![](/img/sk8.png "E")

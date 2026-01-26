@@ -7,7 +7,6 @@
     <generator>Hugo -- 0.154.5</generator>
     <language>de-at</language>
     <copyright>2026 Physik 2025/26 6M · Powered by Simon ze Hugo &amp;amp; bissl Johni12</copyright>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elektrizität</title>
@@ -30,7 +29,7 @@
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk5.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk6.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk7.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk8.png&#34; title=&#34;E&#34;&gt;ö&lt;/p&gt;</description>
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk8.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spenden</title>
@@ -48,9 +47,9 @@
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Blackjack mit Einsatz</title>
+      <title>Black-Jack</title>
       <link>http://localhost:1313/posts/gambling/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/gambling/</guid>
       <description>&lt;div id=&#34;game&#34;&gt;
   &lt;h2&gt;Blackjack&lt;/h2&gt;
@@ -59,67 +58,107 @@
   &lt;input type=&#34;number&#34; id=&#34;bet&#34; placeholder=&#34;Einsatz&#34; min=&#34;1&#34;&gt;
   &lt;br&gt;&lt;br&gt;
 
-  &lt;button onclick=&#34;startGame()&#34;&gt;Start&lt;/button&gt;
-  &lt;button onclick=&#34;hit()&#34;&gt;Hit&lt;/button&gt;
-  &lt;button onclick=&#34;stand()&#34;&gt;Stand&lt;/button&gt;
+  &lt;button id=&#34;startBtn&#34;&gt;Start&lt;/button&gt;
+  &lt;button id=&#34;hitBtn&#34;&gt;Hit&lt;/button&gt;
+  &lt;button id=&#34;standBtn&#34;&gt;Stand&lt;/button&gt;
 
   &lt;p id=&#34;status&#34;&gt;Setze Geld und starte.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;script&gt;
-let money = 1000;
-let bet = 0;
-let player = 0;
-let dealer = 0;
+document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+  let money = parseInt(localStorage.getItem(&#34;blackjackMoney&#34;)) || 1000;
+  let bet = 0;
+  let player = 0;
+  let dealer = 0;
+  let inGame = false;
 
-function draw() {
-  return Math.floor(Math.random() * 10) + 1;
-}
+  const moneyEl = document.getElementById(&#34;money&#34;);
+  const statusEl = document.getElementById(&#34;status&#34;);
+  const startBtn = document.getElementById(&#34;startBtn&#34;);
+  const hitBtn = document.getElementById(&#34;hitBtn&#34;);
+  const standBtn = document.getElementById(&#34;standBtn&#34;);
+  const betInput = document.getElementById(&#34;bet&#34;);
 
-function updateMoney() {
-  document.getElementById(&#34;money&#34;).innerText = money;
-}
-
-function startGame() {
-  bet = parseInt(document.getElementById(&#34;bet&#34;).value);
-  if (!bet || bet &lt;= 0 || bet &gt; money) {
-    document.getElementById(&#34;status&#34;).innerText = &#34;Ungültiger Einsatz.&#34;;
-    return;
+  function draw() {
+    return Math.floor(Math.random() * 10) + 1;
   }
 
-  player = draw() + draw();
-  dealer = draw();
-  document.getElementById(&#34;status&#34;).innerText =
-    &#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer;
-}
-
-function hit() {
-  player += draw();
-  if (player &gt; 21) {
-    money -= bet;
-    updateMoney();
-    document.getElementById(&#34;status&#34;).innerText = &#34;Bust! Du verlierst &#34; + bet;
-  } else {
-    document.getElementById(&#34;status&#34;).innerText =
-      &#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer;
+  function updateMoney() {
+    moneyEl.innerText = money;
+    localStorage.setItem(&#34;blackjackMoney&#34;, money);
   }
-}
 
-function stand() {
-  while (dealer &lt; 17) dealer += draw();
-
-  if (dealer &gt; 21 || player &gt; dealer) {
-    money += bet;
-    updateMoney();
-    document.getElementById(&#34;status&#34;).innerText =
-      &#34;Du gewinnst! +&#34; + bet;
-  } else {
-    money -= bet;
-    updateMoney();
-    document.getElementById(&#34;status&#34;).innerText =
-      &#34;Dealer gewinnt. -&#34; + bet;
+  function setStatus(text, color = &#34;&#34;) {
+    statusEl.innerText = text;
+    statusEl.style.color = color;
   }
-}
+
+  function resetRound() {
+    // Spiel beenden, aber Status nicht überschreiben
+    player = 0;
+    dealer = 0;
+    inGame = false;
+  }
+
+  startBtn.addEventListener(&#34;click&#34;, function() {
+    if (inGame) {
+      setStatus(&#34;Runde läuft bereits!&#34;, &#34;orange&#34;);
+      return;
+    }
+
+    bet = parseInt(betInput.value);
+    if (!bet || bet &lt; 1) {
+      setStatus(&#34;Einsatz muss mindestens 1 sein.&#34;, &#34;red&#34;);
+      return;
+    }
+
+    if (bet &gt; money) {
+      setStatus(&#34;Du hast nicht genug Geld.&#34;, &#34;red&#34;);
+      return;
+    }
+
+    player = draw() + draw();
+    dealer = draw();
+    inGame = true;
+
+    setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer, &#34;black&#34;);
+  });
+
+  hitBtn.addEventListener(&#34;click&#34;, function() {
+    if (!inGame) return;
+
+    player += draw();
+
+    if (player &gt; 21) {
+      money -= bet;
+      updateMoney();
+      setStatus(&#34;Bust! Du verlierst &#34; + bet, &#34;red&#34;);
+      resetRound(); // nur Runde zurücksetzen, Text bleibt
+    } else {
+      setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer, &#34;black&#34;);
+    }
+  });
+
+  standBtn.addEventListener(&#34;click&#34;, function() {
+    if (!inGame) return;
+
+    while (dealer &lt; 17) dealer += draw();
+
+    if (dealer &gt; 21 || player &gt; dealer) {
+      money += bet;
+      setStatus(&#34;Du gewinnst! +&#34; + bet, &#34;green&#34;);
+    } else {
+      money -= bet;
+      setStatus(&#34;Dealer gewinnt. -&#34; + bet, &#34;red&#34;);
+    }
+
+    updateMoney();
+    resetRound(); // Text bleibt sichtbar
+  });
+
+  updateMoney();
+});
 &lt;/script&gt;</description>
     </item>
   </channel>
