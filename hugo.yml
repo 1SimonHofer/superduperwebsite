@@ -15,9 +15,9 @@ params:
     
 menu:
   main:
-    - identifier: donation
-      name: 'Donation'
-      url: /donation/
+    - identifier: spenden
+      name: 'Spenden'
+      url: /spenden/
     - identifier: über_mich
       name: 'Über mich'
       url: /übermich/

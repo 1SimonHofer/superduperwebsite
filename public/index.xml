@@ -18,10 +18,10 @@
 &lt;p&gt;Das Bild zeigt die grundlegende Struktur eines Atoms und die elektrischen Eigenschaften seiner Bestandteile.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Donation</title>
-      <link>http://localhost:1313/donation/</link>
+      <title>Spenden</title>
+      <link>http://localhost:1313/spenden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/donation/</guid>
+      <guid>http://localhost:1313/spenden/</guid>
       <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;</description>
     </item>
     <item>
