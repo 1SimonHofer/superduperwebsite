@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Physik 2025/26 6M</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Physik 2025/26 6M</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>de-at</language>
+    <lastBuildDate>Mon, 26 Jan 2026 12:43:46 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elektrizität</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Mon, 26 Jan 2026 12:43:46 +0100</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/elektrizit%C3%A4t.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Das Bild zeigt die grundlegende Struktur eines Atoms und die elektrischen Eigenschaften seiner Bestandteile.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donation</title>
+      <link>http://localhost:1313/donation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/donation/</guid>
+      <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
