@@ -10,7 +10,9 @@ params:
     text: "Physik 2025/26 6M"
     icon: "img/macho.png"
     iconHeight: 35
-
+  assets:
+    favicon: "img/macho.png"
+    
 menu:
   main:
     - identifier: donation
