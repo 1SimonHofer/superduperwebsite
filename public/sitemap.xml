@@ -4,13 +4,23 @@
   <url>
     <loc>http://localhost:1313/posts/einleitung/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/impuls/</loc>
+    <loc>http://localhost:1313/posts/1impuls/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/drehimpuls/</loc>
+    <loc>http://localhost:1313/posts/2drehimpuls/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/ele/</loc>
+    <loc>http://localhost:1313/posts/3msw/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/kriese/</loc>
+    <loc>http://localhost:1313/posts/4akustik/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/5dopplereffekt/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/6elektrizit%C3%A4t/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/7stromkreise/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/8sim/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/9gravitationvse/</loc>
   </url><url>
     <loc>http://localhost:1313/spenden/</loc>
   </url><url>

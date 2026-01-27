@@ -13,18 +13,18 @@
       <link>http://localhost:1313/posts/einleitung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/einleitung/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung/einleitung1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;</description>
     </item>
     <item>
       <title>1. Impuls</title>
-      <link>http://localhost:1313/posts/impuls/</link>
+      <link>http://localhost:1313/posts/1impuls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/impuls/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls1.png&#34; title=&#34;E&#34;&gt;
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls2.png&#34; title=&#34;E&#34;&gt;
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls3.png&#34; title=&#34;E&#34;&gt;
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls4.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/posts/1impuls/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls2.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls3.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls4.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;br&gt;
 Er ist definiert als:&lt;/p&gt;
 &lt;p&gt;p = m * v&lt;/p&gt;
@@ -37,40 +37,91 @@ Er ist definiert als:&lt;/p&gt;
     </item>
     <item>
       <title>2. Drehimpuls</title>
-      <link>http://localhost:1313/posts/drehimpuls/</link>
+      <link>http://localhost:1313/posts/2drehimpuls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/drehimpuls/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/2drehimpuls/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/2drehimpuls/drehimpuls1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/2drehimpuls/drehimpuls2.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/2drehimpuls/drehimpuls3.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Der Drehimpuls ist perfekt um sich zu drehen.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Elektrizität</title>
-      <link>http://localhost:1313/posts/ele/</link>
+      <title>3. Mechanische Schwingungen und Wellen</title>
+      <link>http://localhost:1313/posts/3msw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ele/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/elektrizit%C3%A4t.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/posts/3msw/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw2.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw3.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw4.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw5.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw6.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw7.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/3msw/msw8.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Schwing hin und her! HUiii!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4. Akustik</title>
+      <link>http://localhost:1313/posts/4akustik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/4akustik/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/4akustik/akustik1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Gitarre yoo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5. Der Dopplereffekt</title>
+      <link>http://localhost:1313/posts/5dopplereffekt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5dopplereffekt/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/5dopplereffekt/de1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/5dopplereffekt/de2.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ein komischer Typ, der Doppler&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6. Elektrizität</title>
+      <link>http://localhost:1313/posts/6elektrizit%C3%A4t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/6elektrizit%C3%A4t/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/6elektrizit%C3%A4t/ele1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/6elektrizit%C3%A4t/ele2.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Das Bild zeigt die grundlegende Struktur eines Atoms und die elektrischen Eigenschaften seiner Bestandteile.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Stromkreise</title>
-      <link>http://localhost:1313/posts/kriese/</link>
+      <title>7. Stromkreise</title>
+      <link>http://localhost:1313/posts/7stromkreise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kriese/</guid>
-      <description>&lt;p&gt;Hier sind Informationen über einen Stromkreis.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk1.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk2.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk3.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk4.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk5.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk6.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk7.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk8.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/7stromkreise/</guid>
+      <description>&lt;p&gt;Hier sind Informationen über verschieden gebaute Stromkreise.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str1.png&#34; title=&#34;E&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str2.png&#34; title=&#34;E&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str3.png&#34; title=&#34;E&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str4.png&#34; title=&#34;E&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str5.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>8. Stromversorgung im Haushalt</title>
+      <link>http://localhost:1313/posts/8sim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/8sim/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Jeder mag Strom&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9. Gravitation vs. elektrische Kraft</title>
+      <link>http://localhost:1313/posts/9gravitationvse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/9gravitationvse/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34; title=&#34;E&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Welche gewinnt?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spenden</title>
       <link>http://localhost:1313/spenden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/spenden/</guid>
-      <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.betterplace.org/c/spenden-sammeln/spenden-sammeln-in-oesterreich&#34;&gt;Hier können Sie sehr gerne spenden! Danke.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Black-Jack</title>
