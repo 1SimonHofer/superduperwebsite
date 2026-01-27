@@ -9,18 +9,52 @@
     <copyright>2026 Physik 2025/26 6M · Powered by Simon ze Hugo &amp;amp; bissl Johni12</copyright>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Elektrizität</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <title>Servus</title>
+      <link>http://localhost:1313/posts/einleitung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>http://localhost:1313/posts/einleitung/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>1. Impuls</title>
+      <link>http://localhost:1313/posts/impuls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/impuls/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls1.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls2.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls3.png&#34; title=&#34;E&#34;&gt;
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/impuls/impuls4.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;br&gt;
+Er ist definiert als:&lt;/p&gt;
+&lt;p&gt;p = m * v&lt;/p&gt;
+&lt;p&gt;Dabei ist&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;m die Masse&lt;/li&gt;
+&lt;li&gt;v die Geschwindigkeit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In einem abgeschlossenen System bleibt der &lt;strong&gt;Gesamtimpuls erhalten&lt;/strong&gt;, auch bei Stößen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2. Drehimpuls</title>
+      <link>http://localhost:1313/posts/drehimpuls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/drehimpuls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elektrizität</title>
+      <link>http://localhost:1313/posts/ele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ele/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/elektrizit%C3%A4t.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Das Bild zeigt die grundlegende Struktur eines Atoms und die elektrischen Eigenschaften seiner Bestandteile.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stromkreise</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>http://localhost:1313/posts/kriese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>http://localhost:1313/posts/kriese/</guid>
       <description>&lt;p&gt;Hier sind Informationen über einen Stromkreis.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk1.png&#34; title=&#34;E&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sk2.png&#34; title=&#34;E&#34;&gt;
@@ -37,14 +71,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/spenden/</guid>
       <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Über mich</title>
-      <link>http://localhost:1313/%C3%BCbermich/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/%C3%BCbermich/</guid>
-      <description>&lt;p&gt;Hi, ich bins der Ismon.
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Black-Jack</title>
@@ -66,7 +92,7 @@
 &lt;/div&gt;
 
 &lt;script&gt;
-document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
   let money = parseInt(localStorage.getItem(&#34;blackjackMoney&#34;)) || 1000;
   let bet = 0;
   let player = 0;
@@ -95,26 +121,26 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
   }
 
   function resetRound() {
-    // Spiel beenden, aber Status nicht überschreiben
     player = 0;
     dealer = 0;
     inGame = false;
   }
 
-  startBtn.addEventListener(&#34;click&#34;, function() {
+  startBtn.addEventListener(&#34;click&#34;, function () {
     if (inGame) {
-      setStatus(&#34;Runde läuft bereits!&#34;, &#34;orange&#34;);
+      setStatus(&#34;Runde läuft bereits.&#34;);
       return;
     }
 
     bet = parseInt(betInput.value);
+
     if (!bet || bet &lt; 1) {
-      setStatus(&#34;Einsatz muss mindestens 1 sein.&#34;, &#34;red&#34;);
+      setStatus(&#34;Einsatz muss mindestens 1 sein.&#34;);
       return;
     }
 
     if (bet &gt; money) {
-      setStatus(&#34;Du hast nicht genug Geld.&#34;, &#34;red&#34;);
+      setStatus(&#34;Du hast nicht genug Geld.&#34;);
       return;
     }
 
@@ -122,10 +148,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     dealer = draw();
     inGame = true;
 
-    setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer, &#34;black&#34;);
+    setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer);
   });
 
-  hitBtn.addEventListener(&#34;click&#34;, function() {
+  hitBtn.addEventListener(&#34;click&#34;, function () {
     if (!inGame) return;
 
     player += draw();
@@ -134,62 +160,56 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
       money -= bet;
       updateMoney();
       setStatus(&#34;Bust! Du verlierst &#34; + bet, &#34;red&#34;);
-      resetRound(); // nur Runde zurücksetzen, Text bleibt
+      resetRound();
     } else {
-      setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer, &#34;black&#34;);
+      setStatus(&#34;Du: &#34; + player + &#34; | Dealer zeigt: &#34; + dealer);
     }
   });
 
-  standBtn.addEventListener(&#34;click&#34;, function() {
+  standBtn.addEventListener(&#34;click&#34;, function () {
     if (!inGame) return;
 
-    while (dealer &lt; 17) dealer += draw();
+    let dealerCards = [];
+
+    while (dealer &lt; 17) {
+      let card = draw();
+      dealer += card;
+      dealerCards.push(card);
+    }
 
     if (dealer &gt; 21 || player &gt; dealer) {
       money += bet;
-      setStatus(&#34;Du gewinnst! +&#34; + bet, &#34;green&#34;);
+      setStatus(
+        &#34;Du gewinnst! +&#34; + bet +
+        &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) +
+        &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+        &#34;green&#34;
+      );
     } else {
       money -= bet;
-      setStatus(&#34;Dealer gewinnt. -&#34; + bet, &#34;red&#34;);
+      setStatus(
+        &#34;Dealer gewinnt. -&#34; + bet +
+        &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) +
+        &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+        &#34;red&#34;
+      );
     }
 
     updateMoney();
-    resetRound(); // Text bleibt sichtbar
+    resetRound();
   });
 
   updateMoney();
 });
-
-standBtn.addEventListener(&#34;click&#34;, function() {
-  if (!inGame) return;
-
-  let dealerCards = []; // speichert die gezogenen Werte des Dealers
-  while (dealer &lt; 17) {
-    let card = draw();
-    dealer += card;
-    dealerCards.push(card);
-  }
-
-  if (dealer &gt; 21 || player &gt; dealer) {
-    money += bet;
-    setStatus(
-      &#34;Du gewinnst! +&#34; + bet + &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) + &#34; (Summe: &#34; + dealer + &#34;)&#34;,
-      &#34;green&#34;
-    );
-  } else {
-    money -= bet;
-    setStatus(
-      &#34;Dealer gewinnt. -&#34; + bet + &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) + &#34; (Summe: &#34; + dealer + &#34;)&#34;,
-      &#34;red&#34;
-    );
-  }
-
-  updateMoney();
-  resetRound(); // Spielvariablen zurücksetzen, Status bleibt sichtbar
-});
-
-
 &lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Über mich</title>
+      <link>http://localhost:1313/%C3%BCbermich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%C3%BCbermich/</guid>
+      <description>&lt;p&gt;Hi, ich bins der Ismon.
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

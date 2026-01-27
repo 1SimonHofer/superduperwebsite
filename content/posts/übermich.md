@@ -1,7 +1,7 @@
 ---
 title: 'Über mich'
 url: '/übermich/'
-weight: 4
+weight: 105
 ---
 
 Hi, ich bins der Ismon.

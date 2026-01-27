@@ -1,7 +1,7 @@
 ---
 title: 'Spenden'
 url: '/spenden/'
-weight: 3
+weight: 103
 ---
 
 Bitte Geld, danke :\) 
