@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/einleitung/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/impuls/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/drehimpuls/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/ele/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/kriese/</loc>
   </url><url>
     <loc>http://localhost:1313/spenden/</loc>
   </url><url>
-    <loc>http://localhost:1313/%C3%BCbermich/</loc>
-  </url><url>
     <loc>http://localhost:1313/posts/gambling/</loc>
+  </url><url>
+    <loc>http://localhost:1313/%C3%BCbermich/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
