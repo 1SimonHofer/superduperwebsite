@@ -159,6 +159,36 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 
   updateMoney();
 });
+
+standBtn.addEventListener(&#34;click&#34;, function() {
+  if (!inGame) return;
+
+  let dealerCards = []; // speichert die gezogenen Werte des Dealers
+  while (dealer &lt; 17) {
+    let card = draw();
+    dealer += card;
+    dealerCards.push(card);
+  }
+
+  if (dealer &gt; 21 || player &gt; dealer) {
+    money += bet;
+    setStatus(
+      &#34;Du gewinnst! +&#34; + bet + &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) + &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+      &#34;green&#34;
+    );
+  } else {
+    money -= bet;
+    setStatus(
+      &#34;Dealer gewinnt. -&#34; + bet + &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) + &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+      &#34;red&#34;
+    );
+  }
+
+  updateMoney();
+  resetRound(); // Spielvariablen zurücksetzen, Status bleibt sichtbar
+});
+
+
 &lt;/script&gt;</description>
     </item>
   </channel>

@@ -4,6 +4,7 @@ markup: "html"
 weight: 5
 ---
 
+
 <div id="game">
   <h2>Blackjack</h2>
   <p>Geld: <span id="money">1000</span></p>
@@ -19,7 +20,7 @@ weight: 5
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   let money = parseInt(localStorage.getItem("blackjackMoney")) || 1000;
   let bet = 0;
   let player = 0;
@@ -48,26 +49,26 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function resetRound() {
-    // Spiel beenden, aber Status nicht überschreiben
     player = 0;
     dealer = 0;
     inGame = false;
   }
 
-  startBtn.addEventListener("click", function() {
+  startBtn.addEventListener("click", function () {
     if (inGame) {
-      setStatus("Runde läuft bereits!", "orange");
+      setStatus("Runde läuft bereits.");
       return;
     }
 
     bet = parseInt(betInput.value);
+
     if (!bet || bet < 1) {
-      setStatus("Einsatz muss mindestens 1 sein.", "red");
+      setStatus("Einsatz muss mindestens 1 sein.");
       return;
     }
 
     if (bet > money) {
-      setStatus("Du hast nicht genug Geld.", "red");
+      setStatus("Du hast nicht genug Geld.");
       return;
     }
 
@@ -75,10 +76,10 @@ document.addEventListener("DOMContentLoaded", function() {
     dealer = draw();
     inGame = true;
 
-    setStatus("Du: " + player + " | Dealer zeigt: " + dealer, "black");
+    setStatus("Du: " + player + " | Dealer zeigt: " + dealer);
   });
 
-  hitBtn.addEventListener("click", function() {
+  hitBtn.addEventListener("click", function () {
     if (!inGame) return;
 
     player += draw();
@@ -87,27 +88,43 @@ document.addEventListener("DOMContentLoaded", function() {
       money -= bet;
       updateMoney();
       setStatus("Bust! Du verlierst " + bet, "red");
-      resetRound(); // nur Runde zurücksetzen, Text bleibt
+      resetRound();
     } else {
-      setStatus("Du: " + player + " | Dealer zeigt: " + dealer, "black");
+      setStatus("Du: " + player + " | Dealer zeigt: " + dealer);
     }
   });
 
-  standBtn.addEventListener("click", function() {
+  standBtn.addEventListener("click", function () {
     if (!inGame) return;
 
-    while (dealer < 17) dealer += draw();
+    let dealerCards = [];
+
+    while (dealer < 17) {
+      let card = draw();
+      dealer += card;
+      dealerCards.push(card);
+    }
 
     if (dealer > 21 || player > dealer) {
       money += bet;
-      setStatus("Du gewinnst! +" + bet, "green");
+      setStatus(
+        "Du gewinnst! +" + bet +
+        " | Dealer zog: " + dealerCards.join(", ") +
+        " (Summe: " + dealer + ")",
+        "green"
+      );
     } else {
       money -= bet;
-      setStatus("Dealer gewinnt. -" + bet, "red");
+      setStatus(
+        "Dealer gewinnt. -" + bet +
+        " | Dealer zog: " + dealerCards.join(", ") +
+        " (Summe: " + dealer + ")",
+        "red"
+      );
     }
 
     updateMoney();
-    resetRound(); // Text bleibt sichtbar
+    resetRound();
   });
 
   updateMoney();
