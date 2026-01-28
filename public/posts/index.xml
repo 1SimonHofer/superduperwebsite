@@ -6,15 +6,16 @@
     <description>Recent content in Posts on Physik 2025/26 6M</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>de-at</language>
-    <copyright>2026 Physik 2025/26 6M · Powered by Simon ze Hugo &amp;amp; bissl Johni12</copyright>
+    <copyright>2026 Physik 2025/26 6M · Powered by Simon the Goat &amp;amp; HUGO</copyright>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Servus</title>
       <link>http://localhost:1313/posts/einleitung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/einleitung/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung/einleitung1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung/einleitung1.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;
+&lt;p&gt;Hier können sie mehrere Sachen über den Physik-Stoff der 6M 2025-26 anschauen und mit viel Fleiß lernen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. Impuls</title>
@@ -84,18 +85,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/7stromkreise/</guid>
       <description>&lt;p&gt;Hier sind Informationen über verschieden gebaute Stromkreise.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str1.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str2.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str3.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str4.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str5.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str2.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str3.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str4.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str5.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>8. Stromversorgung im Haushalt</title>
       <link>http://localhost:1313/posts/8sim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/8sim/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Jeder mag Strom&lt;/p&gt;</description>
     </item>
     <item>
@@ -103,9 +104,23 @@
       <link>http://localhost:1313/posts/9gravitationvse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/9gravitationvse/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Welche gewinnt?&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Welche Kraft gewinnt?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10. Magnete</title>
+      <link>http://localhost:1313/posts/10magnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10magnet/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg2.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg3.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg4.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg5.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg6.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hier können Sie die künstlerische Begabung vom Herr Professor Machovec sehen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spenden</title>
@@ -114,6 +129,14 @@
       <guid>http://localhost:1313/spenden/</guid>
       <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.betterplace.org/c/spenden-sammeln/spenden-sammeln-in-oesterreich&#34;&gt;Hier können Sie sehr gerne spenden! Danke.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supporter</title>
+      <link>http://localhost:1313/supporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/supporter/</guid>
+      <description>&lt;p&gt;Ich danke &lt;strong&gt;Johni12M the real one&lt;/strong&gt; für den Support beim aufstellen des Servers.&lt;/p&gt;
+&lt;p&gt;Außerdem danke ich den &lt;strong&gt;Enten&lt;/strong&gt;, weil ich sie mag.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Black-Jack</title>
@@ -259,8 +282,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/%C3%BCbermich/</guid>
       <description>&lt;p&gt;Hi, ich bins der Ismon.
-Ich bin alt Jahre alt.
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+Und ich habe diese super kreative und tolle Website gecoded.
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -5,25 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Black-Jack | Physik 2025/26 6M</title>
+<title>10. Magnete | Physik 2025/26 6M</title>
 <meta name="keywords" content="">
 <meta name="description" content="
-  Blackjack
-  Geld: 1000
-
-  
-  
-
-  Start
-  Hit
-  Stand
-
-  Setze Geld und starte.
 
 
-">
+
+
+
+
+Hier können Sie die künstlerische Begabung vom Herr Professor Machovec sehen.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/gambling/">
+<link rel="canonical" href="http://localhost:1313/posts/10magnet/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/img/macho.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -32,7 +25,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/gambling/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/10magnet/">
 <noscript>
     <style>
         #theme-toggle,
@@ -118,13 +111,13 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/gambgling/" title="Nur wichtiges">
-                    <span>Nur wichtiges</span>
+                <a href="http://localhost:1313/spenden/" title="Spenden">
+                    <span>Spenden</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/spenden/" title="Spenden">
-                    <span>Spenden</span>
+                <a href="http://localhost:1313/supporter/" title="Supporter">
+                    <span>Supporter</span>
                 </a>
             </li>
             <li>
@@ -141,139 +134,20 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Black-Jack
+      10. Magnete
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
-  <div class="post-content">
-
-<div id="game">
-  <h2>Blackjack</h2>
-  <p>Geld: <span id="money">1000</span></p>
-
-  <input type="number" id="bet" placeholder="Einsatz" min="1">
-  <br><br>
-
-  <button id="startBtn">Start</button>
-  <button id="hitBtn">Hit</button>
-  <button id="standBtn">Stand</button>
-
-  <p id="status">Setze Geld und starte.</p>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  let money = parseInt(localStorage.getItem("blackjackMoney")) || 1000;
-  let bet = 0;
-  let player = 0;
-  let dealer = 0;
-  let inGame = false;
-
-  const moneyEl = document.getElementById("money");
-  const statusEl = document.getElementById("status");
-  const startBtn = document.getElementById("startBtn");
-  const hitBtn = document.getElementById("hitBtn");
-  const standBtn = document.getElementById("standBtn");
-  const betInput = document.getElementById("bet");
-
-  function draw() {
-    return Math.floor(Math.random() * 10) + 1;
-  }
-
-  function updateMoney() {
-    moneyEl.innerText = money;
-    localStorage.setItem("blackjackMoney", money);
-  }
-
-  function setStatus(text, color = "") {
-    statusEl.innerText = text;
-    statusEl.style.color = color;
-  }
-
-  function resetRound() {
-    player = 0;
-    dealer = 0;
-    inGame = false;
-  }
-
-  startBtn.addEventListener("click", function () {
-    if (inGame) {
-      setStatus("Runde läuft bereits.");
-      return;
-    }
-
-    bet = parseInt(betInput.value);
-
-    if (!bet || bet < 1) {
-      setStatus("Einsatz muss mindestens 1 sein.");
-      return;
-    }
-
-    if (bet > money) {
-      setStatus("Du hast nicht genug Geld.");
-      return;
-    }
-
-    player = draw() + draw();
-    dealer = draw();
-    inGame = true;
-
-    setStatus("Du: " + player + " | Dealer zeigt: " + dealer);
-  });
-
-  hitBtn.addEventListener("click", function () {
-    if (!inGame) return;
-
-    player += draw();
-
-    if (player > 21) {
-      money -= bet;
-      updateMoney();
-      setStatus("Bust! Du verlierst " + bet, "red");
-      resetRound();
-    } else {
-      setStatus("Du: " + player + " | Dealer zeigt: " + dealer);
-    }
-  });
-
-  standBtn.addEventListener("click", function () {
-    if (!inGame) return;
-
-    let dealerCards = [];
-
-    while (dealer < 17) {
-      let card = draw();
-      dealer += card;
-      dealerCards.push(card);
-    }
-
-    if (dealer > 21 || player > dealer) {
-      money += bet;
-      setStatus(
-        "Du gewinnst! +" + bet +
-        " | Dealer zog: " + dealerCards.join(", ") +
-        " (Summe: " + dealer + ")",
-        "green"
-      );
-    } else {
-      money -= bet;
-      setStatus(
-        "Dealer gewinnt. -" + bet +
-        " | Dealer zog: " + dealerCards.join(", ") +
-        " (Summe: " + dealer + ")",
-        "red"
-      );
-    }
-
-    updateMoney();
-    resetRound();
-  });
-
-  updateMoney();
-});
-</script>
+  <div class="post-content"><p><img loading="lazy" src="/img/10kunst/mg1.png">
+<img loading="lazy" src="/img/10kunst/mg2.png">
+<img loading="lazy" src="/img/10kunst/mg3.png">
+<img loading="lazy" src="/img/10kunst/mg4.png">
+<img loading="lazy" src="/img/10kunst/mg5.png">
+<img loading="lazy" src="/img/10kunst/mg6.png">
+<img loading="lazy" src="/img/10kunst/mg7.png"></p>
+<p>Hier können Sie die künstlerische Begabung vom Herr Professor Machovec sehen.</p>
 
 
   </div>
@@ -286,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </main>
     
 <footer class="footer">
-        <span>© 2026 Physik 2025/26 6M · Powered by Simon ze Hugo &amp; bissl Johni12</span>
+        <span>© 2026 Physik 2025/26 6M · Powered by <strong>Simon the Goat</strong> &amp; <strong>HUGO</strong></span>
 </footer>
 </body>
 

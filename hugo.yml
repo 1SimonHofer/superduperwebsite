@@ -2,7 +2,7 @@ baseURL: 'https://bestwebsiteever.wasmer.app/'
 languageCode: 'de-at'
 title: 'Physik 2025/26 6M'
 theme: 'PaperMod'
-copyright: "© 2026 Physik 2025/26 6M · Powered by Simon ze Hugo & bissl Johni12"
+copyright: "© 2026 Physik 2025/26 6M · Powered by **Simon the Goat** & **HUGO**"
 disablePoweredBy: true
 
 params:
@@ -21,3 +21,6 @@ menu:
     - identifier: über_mich
       name: 'Über mich'
       url: /übermich/
+    - identifier: supporter
+      name: 'Supporter'
+      url: /supporter/

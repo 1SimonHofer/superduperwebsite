@@ -7,4 +7,4 @@ title: '9. Gravitation vs. elektrische Kraft'
 ![](/img/9gravitation/gvek1.png "")
 ![](/img/9gravitation/gvek2.png "")
 
-Welche gewinnt?
+Welche Kraft gewinnt?

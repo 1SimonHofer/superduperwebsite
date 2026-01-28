@@ -6,7 +6,7 @@
     <description>Recent content on Physik 2025/26 6M</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>de-at</language>
-    <copyright>2026 Physik 2025/26 6M · Powered by Simon ze Hugo &amp;amp; bissl Johni12</copyright>
+    <copyright>2026 Physik 2025/26 6M · Powered by Simon the Goat &amp;amp; HUGO</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Servus</title>
@@ -106,7 +106,21 @@
       <guid>http://localhost:1313/posts/9gravitationvse/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Welche gewinnt?&lt;/p&gt;</description>
+&lt;p&gt;Welche Kraft gewinnt?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10. Magnete</title>
+      <link>http://localhost:1313/posts/10magnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10magnet/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg2.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg3.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg4.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg5.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg6.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/10kunst/mg7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hier können Sie die künstlerische Begabung vom Herr Professor Machovec sehen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spenden</title>
@@ -115,6 +129,14 @@
       <guid>http://localhost:1313/spenden/</guid>
       <description>&lt;p&gt;Bitte Geld, danke :)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.betterplace.org/c/spenden-sammeln/spenden-sammeln-in-oesterreich&#34;&gt;Hier können Sie sehr gerne spenden! Danke.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supporter</title>
+      <link>http://localhost:1313/supporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/supporter/</guid>
+      <description>&lt;p&gt;Ich danke &lt;strong&gt;Johni12M the real one&lt;/strong&gt; für den Support beim aufstellen des Servers.&lt;/p&gt;
+&lt;p&gt;Außerdem danke ich den &lt;strong&gt;Enten&lt;/strong&gt;, weil ich sie mag.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Black-Jack</title>
