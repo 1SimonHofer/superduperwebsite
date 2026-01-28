@@ -10,13 +10,4 @@ title: '1. Impuls'
 ![cool picture](/img/1impuls/impuls4.png "E")
 
 
-Der **Impuls** ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.  
-Er ist definiert als:
-
-p = m * v
-
-Dabei ist  
-- m die Masse  
-- v die Geschwindigkeit  
-
-In einem abgeschlossenen System bleibt der **Gesamtimpuls erhalten**, auch bei Stößen.
+Der **Impuls** ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.

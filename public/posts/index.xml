@@ -25,15 +25,7 @@
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls2.png&#34; title=&#34;E&#34;&gt;
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls3.png&#34; title=&#34;E&#34;&gt;
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls4.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;br&gt;
-Er ist definiert als:&lt;/p&gt;
-&lt;p&gt;p = m * v&lt;/p&gt;
-&lt;p&gt;Dabei ist&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;m die Masse&lt;/li&gt;
-&lt;li&gt;v die Geschwindigkeit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In einem abgeschlossenen System bleibt der &lt;strong&gt;Gesamtimpuls erhalten&lt;/strong&gt;, auch bei Stößen.&lt;/p&gt;</description>
+&lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Drehimpuls</title>
@@ -103,7 +95,7 @@ Er ist definiert als:&lt;/p&gt;
       <link>http://localhost:1313/posts/8sim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/8sim/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Jeder mag Strom&lt;/p&gt;</description>
     </item>
     <item>
@@ -236,6 +228,13 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
         &#34; (Summe: &#34; + dealer + &#34;)&#34;,
         &#34;green&#34;
       );
+    } else if (player === dealer) {
+      setStatus(
+        &#34;Unentschieden. Einsatz zurück.&#34; +
+        &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) +
+        &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+        &#34;orange&#34;
+      );
     } else {
       money -= bet;
       setStatus(
@@ -260,6 +259,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/%C3%BCbermich/</guid>
       <description>&lt;p&gt;Hi, ich bins der Ismon.
+Ich bin alt Jahre alt.
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>

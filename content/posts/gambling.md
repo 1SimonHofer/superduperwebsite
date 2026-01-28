@@ -4,7 +4,6 @@ markup: "html"
 weight: 105
 ---
 
-
 <div id="game">
   <h2>Blackjack</h2>
   <p>Geld: <span id="money">1000</span></p>
@@ -112,6 +111,13 @@ document.addEventListener("DOMContentLoaded", function () {
         " | Dealer zog: " + dealerCards.join(", ") +
         " (Summe: " + dealer + ")",
         "green"
+      );
+    } else if (player === dealer) {
+      setStatus(
+        "Unentschieden. Einsatz zurück." +
+        " | Dealer zog: " + dealerCards.join(", ") +
+        " (Summe: " + dealer + ")",
+        "orange"
       );
     } else {
       money -= bet;

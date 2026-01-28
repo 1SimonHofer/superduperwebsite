@@ -4,6 +4,6 @@ draft: false
 title: '8. Stromversorgung im Haushalt'
 ---
 
-![](/img/8stromversorgung/sih.png "E")
+![](/img/8stromversorgung/sih1.png "")
 
 Jeder mag Strom

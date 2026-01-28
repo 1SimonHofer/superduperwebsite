@@ -13,8 +13,9 @@
       <link>http://localhost:1313/posts/einleitung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/einleitung/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung/einleitung1.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/einleitung/einleitung1.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;willkommen-auf-der-inoffiziellen-website-vom-physikskriptum&#34;&gt;Willkommen auf der inoffiziellen Website vom Physikskriptum.&lt;/h2&gt;
+&lt;p&gt;Hier können sie mehrere Sachen über den Physik-Stoff der 6M 2025-26 anschauen und mit viel Fleiß lernen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. Impuls</title>
@@ -25,15 +26,7 @@
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls2.png&#34; title=&#34;E&#34;&gt;
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls3.png&#34; title=&#34;E&#34;&gt;
 &lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/1impuls/impuls4.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;br&gt;
-Er ist definiert als:&lt;/p&gt;
-&lt;p&gt;p = m * v&lt;/p&gt;
-&lt;p&gt;Dabei ist&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;m die Masse&lt;/li&gt;
-&lt;li&gt;v die Geschwindigkeit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In einem abgeschlossenen System bleibt der &lt;strong&gt;Gesamtimpuls erhalten&lt;/strong&gt;, auch bei Stößen.&lt;/p&gt;</description>
+&lt;p&gt;Der &lt;strong&gt;Impuls&lt;/strong&gt; ist eine physikalische Größe, die die Bewegung eines Körpers beschreibt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Drehimpuls</title>
@@ -92,18 +85,18 @@ Er ist definiert als:&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/7stromkreise/</guid>
       <description>&lt;p&gt;Hier sind Informationen über verschieden gebaute Stromkreise.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str1.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str2.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str3.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str4.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str5.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str2.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str3.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str4.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/7stromkreise/str5.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>8. Stromversorgung im Haushalt</title>
       <link>http://localhost:1313/posts/8sim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/8sim/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/8stromversorgung/sih1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Jeder mag Strom&lt;/p&gt;</description>
     </item>
     <item>
@@ -111,8 +104,8 @@ Er ist definiert als:&lt;/p&gt;
       <link>http://localhost:1313/posts/9gravitationvse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/9gravitationvse/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34; title=&#34;E&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/9gravitation/gvek2.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Welche gewinnt?&lt;/p&gt;</description>
     </item>
     <item>
@@ -236,6 +229,13 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
         &#34; (Summe: &#34; + dealer + &#34;)&#34;,
         &#34;green&#34;
       );
+    } else if (player === dealer) {
+      setStatus(
+        &#34;Unentschieden. Einsatz zurück.&#34; +
+        &#34; | Dealer zog: &#34; + dealerCards.join(&#34;, &#34;) +
+        &#34; (Summe: &#34; + dealer + &#34;)&#34;,
+        &#34;orange&#34;
+      );
     } else {
       money -= bet;
       setStatus(
@@ -260,7 +260,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/%C3%BCbermich/</guid>
       <description>&lt;p&gt;Hi, ich bins der Ismon.
-&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34; title=&#34;E&#34;&gt;&lt;/p&gt;</description>
+Und ich habe diese super kreative und tolle Website gecoded.
+&lt;img alt=&#34;cool picture&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/merkel.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

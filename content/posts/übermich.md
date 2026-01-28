@@ -5,4 +5,5 @@ weight: 105
 ---
 
 Hi, ich bins der Ismon.
-![cool picture](/img/merkel.png "E")
+Und ich habe diese super kreative und tolle Website gecoded.
+![cool picture](/img/merkel.png "")
