@@ -9,3 +9,5 @@ Ich danke **Johni12M the real one** für den Support beim aufstellen des Servers
 
 Außerdem danke ich den **Enten**, weil ich sie mag.
 
+![](/img/ducks.png "")
+
