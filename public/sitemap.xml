@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/einleitung/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/einleitung/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/1impuls/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/1impuls/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/2drehimpuls/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/2drehimpuls/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/3msw/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/3msw/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/4akustik/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/4akustik/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/5dopplereffekt/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/5dopplereffekt/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/6elektrizit%C3%A4t/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/6elektrizit%C3%A4t/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/7stromkreise/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/7stromkreise/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/8sim/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/8sim/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/9gravitationvse/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/9gravitationvse/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/10magnet/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/10magnet/</loc>
   </url><url>
-    <loc>http://localhost:1313/spenden/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/spenden/</loc>
   </url><url>
-    <loc>http://localhost:1313/supporter/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/supporter/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/gambling/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/gambling/</loc>
   </url><url>
-    <loc>http://localhost:1313/%C3%BCbermich/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/%C3%BCbermich/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313///superduperwebsite.vercel.app/tags/</loc>
   </url>
 </urlset>
